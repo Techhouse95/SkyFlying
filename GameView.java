@@ -141,7 +141,7 @@ public class GameView extends View {
                 Context context = null;
                 Intent intent = new Intent(context,StartActivity.class)
                         .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                context.startActivity(intent);
+                context.GameOverActivity(intent);
             }
         }
         planeSpeed += 2;
@@ -175,7 +175,7 @@ public class GameView extends View {
                 Context context = null;
                 Intent intent = new Intent(context,StartActivity.class)
                         .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                context.startActivity(intent);
+                context.GameOverActivity(intent);
             }
         }
         if (redX <0 ){
